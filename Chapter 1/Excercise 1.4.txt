@@ -1,0 +1,2 @@
+The Function is an effective way of summation of a (first argument) and of the absolute value of b (second argument)
+Done by adding b if it is +ve and subtracting from it if -ve

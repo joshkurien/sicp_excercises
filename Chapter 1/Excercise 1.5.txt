@@ -1,0 +1,6 @@
+In an applicative order	evaluation the interpreter will return a '0' as the output:
+0
+This is because the following condition is encountered: (if (= x 0) 0 (p))
+and in this case the value of x is 0, thus 0 is output
+
+However in normal order evaluation, the expression (p) evaluates to (p) which again evaluates to (p) and so on an idefinite number of times; thus in this case applicative order of evaluation makes a lot of sense.
